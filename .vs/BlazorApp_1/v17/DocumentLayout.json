@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\darbas\\BlazorCodeDemo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A262F441-41D4-4E70-ACBC-0D41C03BD886}|BlazorApp_1.Client\\BlazorApp_1.Client.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A262F441-41D4-4E70-ACBC-0D41C03BD886}|BlazorApp_1.Client\\BlazorApp_1.Client.csproj|solutionrelative:blazorapp_1.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp_1.Client\\Pages\\Counter.razor",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp_1.Client\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T14:54:39.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T14:53:51.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
