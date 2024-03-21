@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Database\**" />
     <Compile Remove="Models\**" />
+    <Content Remove="Database\**" />
     <Content Remove="Models\**" />
+    <EmbeddedResource Remove="Database\**" />
     <EmbeddedResource Remove="Models\**" />
+    <None Remove="Database\**" />
     <None Remove="Models\**" />
   </ItemGroup>
 
@@ -24,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Database\" />
     <Folder Include="DataContext\Models\" />
   </ItemGroup>
 
