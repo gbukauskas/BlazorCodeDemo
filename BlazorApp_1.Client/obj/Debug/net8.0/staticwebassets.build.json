@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qx5yPFWX+I7UudmEWhDpXm53TShpzj/NG075Eh+QkGE=",
+  "Hash": "zULMQqBSntLavJisg6oHfKu5KSuwIx0GA8r5NwqEdWI=",
   "Source": "BlazorApp_1.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.2.5a3d2xw83k.js",
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.ke0efju8ub.js",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.2.5a3d2xw83k.js",
+      "RelativePath": "_framework/dotnet.native.8.0.3.ke0efju8ub.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -166,15 +166,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.2.as0tgsw42u.js",
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.bhw2ecrgjb.js",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.2.as0tgsw42u.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.3.bhw2ecrgjb.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -3988,44 +3988,6 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Claims.wasm"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\1b4i8xgr7x.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
-    },
-    {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\1fdenjn1de.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\1pm3ctrsi4.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
@@ -4062,6 +4024,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.SecureString.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\236wtuh6c4.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\24fnpymxcw.gz",
@@ -4252,25 +4233,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Extensions.wasm"
-    },
-    {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\5a3d2xw83k.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.2.5a3d2xw83k.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.2.5a3d2xw83k.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.2.5a3d2xw83k.js"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\5ap43b7dyn.gz",
@@ -4919,25 +4881,6 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\as0tgsw42u.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.2.as0tgsw42u.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.2.as0tgsw42u.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.2.as0tgsw42u.js"
-    },
-    {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\b4vonnqls8.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
@@ -4957,23 +4900,23 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Ping.wasm"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\b83l3sycgb.gz",
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\bhw2ecrgjb.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
       "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
+      "RelativePath": "_framework/dotnet.runtime.8.0.3.bhw2ecrgjb.js.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.bhw2ecrgjb.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.3.bhw2ecrgjb.js"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\c8r631zg0i.gz",
@@ -4993,6 +4936,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Loader.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\cgt17lnxux.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\ck1vkw54wd.gz",
@@ -5033,25 +4995,6 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.Json.wasm"
     },
     {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\cnygexx7os.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\copqi3r4zc.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
@@ -5088,25 +5031,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.wasm"
-    },
-    {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\d6aadd7z7e.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\d91sbllknk.gz",
@@ -5413,6 +5337,25 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm"
     },
     {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\g9sk4gmcz9.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+    },
+    {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\gann2zxk8k.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
@@ -5487,6 +5430,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\gmhn6xas8t.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\gprc89ntxv.gz",
@@ -5620,6 +5582,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Writer.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\honaop17o5.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\hqxrbzlp7a.gz",
@@ -5964,6 +5945,25 @@
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.Linq.wasm"
     },
     {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\ke0efju8ub.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.3.ke0efju8ub.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.ke0efju8ub.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.3.ke0efju8ub.js"
+    },
+    {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\kpvryzcyes.gz",
       "SourceId": "BlazorApp_1.Client",
       "SourceType": "Computed",
@@ -6000,6 +6000,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\kuwmri7ejk.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\kw2fl63h1d.gz",
@@ -6057,25 +6076,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm"
-    },
-    {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\lc5ol9df64.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\lm9mi34pv1.gz",
@@ -6323,25 +6323,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.wasm"
-    },
-    {
-      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\oxjo761hyh.gz",
-      "SourceId": "BlazorApp_1.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\p2g51kzuy9.gz",
@@ -6684,6 +6665,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.wasm"
+    },
+    {
+      "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\qq1nh3tkni.gz",
+      "SourceId": "BlazorApp_1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\obj\\Debug\\net8.0\\compressed\\qxlqjwf0q9.gz",
