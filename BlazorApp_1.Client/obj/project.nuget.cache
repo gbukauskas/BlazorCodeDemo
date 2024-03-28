@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Zabsaiiu8i0TfZ8y9wm8c3Cos+Nj9e03lr5aBALkW6GxNBaJwCG32VYe1hRlqifghe4ilbXEoSQtC5hUIkKZDA==",
+  "dgSpecHash": "Y9scoLCTQx1Ifq5/I9XFsFHnkB/93ns0/+a9s2RkX6ydXEKH3/dLeeCJof/4J5W3iCsid0uAQLMizDU75IYG5Q==",
   "success": true,
   "projectFilePath": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\BlazorApp_1.Client.csproj",
   "expectedPackageFiles": [
@@ -27,12 +27,12 @@
     "C:\\Users\\gedim\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\gedim\\.nuget\\packages\\microsoft.jsinterop\\8.0.2\\microsoft.jsinterop.8.0.2.nupkg.sha512",
     "C:\\Users\\gedim\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.2\\microsoft.jsinterop.webassembly.8.0.2.nupkg.sha512",
-    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
-    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.2\\microsoft.net.sdk.webassembly.pack.8.0.2.nupkg.sha512",
+    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.3\\microsoft.net.sdk.webassembly.pack.8.0.3.nupkg.sha512",
     "C:\\Users\\gedim\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\gedim\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\gedim\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.2\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.2.nupkg.sha512"
+    "C:\\Users\\gedim\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }
