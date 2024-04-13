@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<!-- <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles> -->
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,10 @@
     <EmbeddedResource Remove="Models\**" />
     <None Remove="Database\**" />
     <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Components\Pages\Counter_1.razor~RF435976b2.TMP" />
   </ItemGroup>
 
   <ItemGroup>
