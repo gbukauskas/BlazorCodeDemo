@@ -1,5 +1,7 @@
 using BlazorApp_1.Client.Pages;
 using BlazorApp_1.Components;
+using BlazorApp_1.DataContext.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp_1
 {
@@ -13,6 +15,12 @@ namespace BlazorApp_1
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents()
                 .AddInteractiveWebAssemblyComponents();
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+            builder.Services.AddDbContext<NorthwindContext>(options =>
+                options.UseSqlServer(connectionString));
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
 
             var app = builder.Build();
 
