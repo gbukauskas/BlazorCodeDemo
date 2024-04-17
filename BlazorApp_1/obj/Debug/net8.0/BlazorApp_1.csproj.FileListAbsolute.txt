@@ -1,3 +1,5 @@
+D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\BlazorApp_1.Client.staticwebassets.runtime.json
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\appsettings.Development.json
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\appsettings.json
@@ -28,10 +30,10 @@ D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Compo
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
@@ -88,7 +90,6 @@ D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
