@@ -19,7 +19,8 @@ namespace TestProjectBlazorApp_1
         {
             using (var context = new NorthwindContext(DbOptionsFactory.DbContextOptions))
             {
-                var allCustomers = CustomerSvc.GetAllEntities(context);
+                int allCustomers = CustomerSvc.GetAllEntities(context).Count();
+                Assert.Equal(91, allCustomers);
             }
         }
     }

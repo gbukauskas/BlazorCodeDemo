@@ -12,7 +12,7 @@ namespace BlazorApp_1.Services
 
         public IQueryable<Customer> GetAllEntities(NorthwindContext ctx)
         {
-            throw new NotImplementedException();
+            return ctx.Customers;
         }
 
         public Task<Customer> GetEntityById(NorthwindContext ctx, int id)
