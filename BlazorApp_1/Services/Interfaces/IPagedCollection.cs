@@ -5,6 +5,6 @@ namespace BlazorApp_1.Services.Interfaces
 {
     public interface IPagedCollection<T> where T : class
     {
-        public Task<PageResponse<T>> GetPage(NorthwindContext ctx, int pageSize, int pageNumber);
+        public Task<PageResponse<T>> GetPageAsync(IQueryable<T> collection, int pageSize, int pageNumber);
     }
 }

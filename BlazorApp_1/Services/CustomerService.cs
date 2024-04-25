@@ -30,40 +30,54 @@ namespace BlazorApp_1.Services
             return ctx.Customers;
         }
 
-        public async Task<PageResponse<Customer>> GetPage(NorthwindContext ctx, int pageSize, int pageNumber)
+        /// <summary>
+        /// The function returns one page, <see cref="PageResponse<T>"/>
+        /// </summary>
+        /// <param name="collection">Passing IQuerable instead of <code>NorthwindContext</code>simplifies sorting and filtering</param>
+        /// <param name="pageSize">Page size</param>
+        /// <param name="pageNumber">Number of the page. Numbering starts from 1.</param>
+        /// <returns><see cref="PageResponse"/></returns>
+        /// <exception cref="DatabaseException"></exception>
+        public async Task<PageResponse<Customer>> GetPageAsync(IQueryable<Customer> collection, int pageSize, int pageNumber)
         {
-            Func<int, IEnumerable<Customer>, PageResponse<Customer>> buildAnswer = delegate (int recordCount, IEnumerable<Customer> items)
+            Func<int, int, int, IEnumerable<Customer>, PageResponse<Customer>> buildAnswer = 
+                delegate (int recordCount, int pageNumber, int totalPages, IEnumerable< Customer> items)
             {
-                double pgCount = (double)recordCount / (double)pageSize;
-                double integral = Math.Truncate(pgCount);
-                double fractional = Math.Abs(pgCount - integral);
                 return new PageResponse<Customer>()
                 {
                     TotalRecords = recordCount,
-                    TotalPages = fractional <= DELTA ? (int)integral : (int)integral + 1,
+                    TotalPages = totalPages,
                     PageSize = pageSize,
                     PageNumber = pageNumber,
                     Items = items
                 };
             };
 
-            Debug.Assert(ctx != null && pageSize > 0 && pageNumber >= 0);   // pageNumber == 0 returns all records (no paging)
+            Debug.Assert(collection != null && pageSize > 0 && pageNumber >= 0);   // pageNumber == 0 returns last page
             try
             {
-                int recordsCount = await GetAllEntities(ctx).CountAsync();
-                if (recordsCount < 1) 
+                int recordsCount = await collection.CountAsync();
+                if (recordsCount < 1)
                 {
-                    return buildAnswer(recordsCount, []);
+                    return buildAnswer(recordsCount, 0, 0, []);
                 }
                 else
                 {
-                    var pageContent = await GetAllEntities(ctx)
-                                                .Skip<Customer>((pageNumber - 1) * pageSize)
+                    double pgCount = (double)recordsCount / (double)pageSize;
+                    double integral = Math.Truncate(pgCount);
+                    double fractional = Math.Abs(pgCount - integral);
+                    int totalPages = fractional <= DELTA ? (int)integral : (int)integral + 1;
+                    int currentPage = (pageNumber < 1) ? totalPages
+                                                       : pageNumber > totalPages ? 1 : pageNumber;
+
+                    var pageContent = await collection
+                                                .Skip<Customer>((currentPage - 1) * pageSize)
                                                 .Take<Customer>(pageSize)
                                                 .ToArrayAsync();
-                    return buildAnswer(recordsCount, pageContent);
+
+                    return buildAnswer(recordsCount, currentPage, totalPages, pageContent);
                 }
-            } 
+            }
             catch (Exception ex)
             {
                 throw new DatabaseException("GetPage failed.", ex);
