@@ -1,5 +1,4 @@
-﻿using BlazorApp_1.DataContext.Models;
-using BlazorApp_1.DataContext.RequestResponse;
+﻿using BlazorApp_1.DataContext.RequestResponse;
 
 namespace BlazorApp_1.Services.Interfaces
 {

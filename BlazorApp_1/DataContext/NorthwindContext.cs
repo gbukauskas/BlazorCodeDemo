@@ -90,12 +90,17 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
+            entity
+                .ToTable("Categories")
+                .HasKey(e => e.CategoryId).HasName("PK_Categories");
+
             entity.HasIndex(e => e.CategoryName, "CategoryName");
 
             entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
             entity.Property(e => e.CategoryName)
                 .IsRequired()
                 .HasMaxLength(15);
+
             entity.Property(e => e.Description).HasColumnType("ntext");
             entity.Property(e => e.Picture).HasColumnType("image");
         });
@@ -128,6 +133,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
+            entity
+                .ToTable("Customers")
+                .HasKey(e => e.CustomerId).HasName("PK_Customers");
+
             entity.HasIndex(e => e.City, "City");
 
             entity.HasIndex(e => e.CompanyName, "CompanyName");
@@ -140,6 +149,7 @@ public partial class NorthwindContext : DbContext
                 .HasMaxLength(5)
                 .IsFixedLength()
                 .HasColumnName("CustomerID");
+
             entity.Property(e => e.Address).HasMaxLength(60);
             entity.Property(e => e.City).HasMaxLength(15);
             entity.Property(e => e.CompanyName)
@@ -198,7 +208,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<CustomerDemographic>(entity =>
         {
-            entity.HasKey(e => e.CustomerTypeId).IsClustered(false);
+            entity
+                .HasKey(e => e.CustomerTypeId)
+                .IsClustered(false)
+                .HasName("PK_CustomerDemographics");
 
             entity.Property(e => e.CustomerTypeId)
                 .HasMaxLength(10)
@@ -209,6 +222,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Employee>(entity =>
         {
+            entity
+                .ToTable("Employees")
+                .HasKey(e => e.EmployeeId).HasName("PK_Employees");
+
             entity.HasIndex(e => e.LastName, "LastName");
 
             entity.HasIndex(e => e.PostalCode, "PostalCode");
@@ -307,6 +324,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
+            entity
+                .ToTable("Orders")
+                .HasKey(e => e.OrderId).HasName("PK_Orders");
+
             entity.HasIndex(e => e.CustomerId, "CustomerID");
 
             entity.HasIndex(e => e.CustomerId, "CustomersOrders");
@@ -444,6 +465,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
+            entity
+                .ToTable("Products")
+                .HasKey(e => e.ProductId).HasName("PK_Products");
+
             entity.HasIndex(e => e.CategoryId, "CategoriesProducts");
 
             entity.HasIndex(e => e.CategoryId, "CategoryID");
@@ -536,9 +561,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Region>(entity =>
         {
-            entity.HasKey(e => e.RegionId).IsClustered(false);
 
-            entity.ToTable("Region");
+            entity
+                .ToTable("Region")
+                .HasKey(e => e.RegionId).IsClustered(false).HasName("PK_Region");
 
             entity.Property(e => e.RegionId)
                 .ValueGeneratedNever()
@@ -581,6 +607,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Shipper>(entity =>
         {
+            entity
+                .ToTable("Shippers")
+                .HasKey(e => e.ShipperId).HasName("PK_Shippers");
+
             entity.Property(e => e.ShipperId).HasColumnName("ShipperID");
             entity.Property(e => e.CompanyName)
                 .IsRequired()
@@ -612,6 +642,10 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Supplier>(entity =>
         {
+            entity
+                .ToTable("Suppliers")
+                .HasKey(e => e.SupplierId).HasName("PK_Suppliers");
+
             entity.HasIndex(e => e.CompanyName, "CompanyName");
 
             entity.HasIndex(e => e.PostalCode, "PostalCode");
@@ -634,7 +668,9 @@ public partial class NorthwindContext : DbContext
 
         modelBuilder.Entity<Territory>(entity =>
         {
-            entity.HasKey(e => e.TerritoryId).IsClustered(false);
+            entity
+                .ToTable("Territories")
+                .HasKey(e => e.TerritoryId).IsClustered(false).HasName("PK_Territories");
 
             entity.Property(e => e.TerritoryId)
                 .HasMaxLength(20)
