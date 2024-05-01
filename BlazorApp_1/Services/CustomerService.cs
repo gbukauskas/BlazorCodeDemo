@@ -3,18 +3,126 @@ using BlazorApp_1.DataContext.Models;
 using BlazorApp_1.DataContext.RequestResponse;
 using BlazorApp_1.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using System;
+using System.CodeDom;
+using System.Collections.Generic;
+using System.Data.Entity;
 using System.Diagnostics;
+using System.Linq;
+using System.Text;
 
 namespace BlazorApp_1.Services
 {
-    public class CustomerService : INorthWind<Customer>, IPagedCollection<Customer>
+    public class CustomerService : INorthWind<Customer, string>, IPagedCollection<Customer>
     {
+        /// <summary>
+        /// Precision for comparision of double constatns
+        /// </summary>
         public static readonly double DELTA = 0.000001;
 
-        public Task<Customer> CreateEntity(NorthwindContext ctx, Customer newEntity)
+        /// <summary>
+        /// The function creates new entity.
+        /// </summary>
+        /// <param name="ctx">
+        ///     <see cref="NorthwindContext"/>
+        /// </param>
+        /// <param name="newEntity"></param>
+        /// <returns>
+        ///     <see cref="Customer"/>
+        /// </returns>
+        /// <exception cref="DataBaseUpdateException">Key value is already registerd</exception>
+        public async Task<Customer> CreateEntity(NorthwindContext ctx, Customer newEntity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                ctx.Add(newEntity);
+                await ctx.SaveChangesAsync();
+                return newEntity;
+            }
+            catch (DbUpdateException ex)
+            {
+                string message = $"Customer with ID={newEntity.CustomerId} was not inserted.";
+                throw new DataBaseUpdateException(message, ex);
+            }
+        }
+
+        // https://learn.microsoft.com/en-us/ef/core/saving/
+        // https://learn.microsoft.com/en-us/ef/core/saving/execute-insert-update-delete
+        /// <summary>
+        /// This method updates all properties of the <code>Customer</code> object.
+        /// </summary>
+        /// <param name="ctx"></param>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        /// <exception cref="DatabaseException"></exception>
+        public async Task<Customer> UpdateEntity(NorthwindContext ctx, Customer entity)
+        {
+            using (var transaction = ctx.Database.BeginTransaction())
+            {
+                try
+                {
+                    Customer customer = await GetEntityByIdAsync(ctx, entity.CustomerId);
+                    customer.CompanyName = entity.CompanyName;
+                    customer.ContactName = entity.ContactName;
+                    customer.ContactTitle = entity.ContactTitle;
+                    customer.Address = entity.Address;
+                    customer.City = entity.City;
+                    customer.Region = entity.Region;
+                    customer.PostalCode = entity.PostalCode;
+                    customer.Country = entity.Country;
+                    customer.Phone = entity.Phone;
+                    customer.Fax = entity.Fax;
+
+                    await ctx.SaveChangesAsync();
+                    await transaction.CommitAsync();
+
+                    return customer;
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    throw new DatabaseException($"Customer ID={entity.CustomerId} was not updated", ex);
+                }
+            }
+        }
+
+        /// <summary>
+        /// The function inserts into dtatbase some entities
+        /// </summary>
+        /// <param name="ctx"><see cref="NorthwindContext"/></param>
+        /// <param name="collection">Collection of new entitis</param>
+        /// <returns>Collection of inserted items</returns>
+        /// <exception cref="DataBaseUpdateException"></exception>
+        public async Task<IEnumerable<Customer>> CreateEntities(NorthwindContext ctx, IEnumerable<Customer> collection)
+        {
+            using (var transaction = ctx.Database.BeginTransaction())
+            {
+                try
+                {
+                    await ctx.Customers.AddRangeAsync(collection);
+                    await ctx.SaveChangesAsync(); 
+                    await transaction.CommitAsync();
+                    return collection;
+                }
+                catch (Exception ex)
+                {
+                    var acc  = new StringBuilder("");
+                    StringBuilder idList = new StringBuilder("");
+                    string message = "Customers were not stored";
+                    if (collection != null)
+                    {
+                        string[] tmp = collection.Select(x => x.CustomerId).ToArray();
+                        string customerIdList = tmp.Aggregate((x, y) => x + " " + y);
+                        if (customerIdList.Length > 100)
+                        {
+                            customerIdList = customerIdList[..97] + "...";
+                        }
+                        message = $"Customers with ID '{customerIdList}' were not stored";
+                    }
+                    throw new DataBaseUpdateException(message, ex);
+                }
+            }
         }
 
         /// <summary>
@@ -28,6 +136,28 @@ namespace BlazorApp_1.Services
         {
             Debug.Assert(ctx != null);
             return ctx.Customers;
+        }
+
+        /// <summary>
+        /// Returns entity which key is equal to value in the second parameter
+        /// </summary>
+        /// <param name="ctx">
+        ///     <see cref="NorthwindContext"/>
+        /// </param>
+        /// <param name="id">Primary key</param>
+        /// <returns>
+        ///     <see cref="Customer"/>
+        /// </returns>
+        /// <exception cref="NotFoundException"><see cref="NotFoundException"/></exception>
+        public async Task<Customer> GetEntityByIdAsync(NorthwindContext ctx, string id)
+        {
+            Customer? answer = await ctx.Customers.FindAsync(id);
+            if (answer == null)
+            {
+                string message = $"Customer with ID={id} was not found.";
+                throw new NotFoundException(message);
+            }
+            return answer;
         }
 
         /// <summary>
@@ -84,14 +214,31 @@ namespace BlazorApp_1.Services
             }
         }
 
-        public Task<Customer> GetEntityById(NorthwindContext ctx, int id)
+        /// <summary>
+        /// The function removes entity from the database
+        /// </summary>
+        /// <param name="ctx"><see cref="NorthwindContext"/></param>
+        /// <param name="id">ID of the record which would be deleted.</param>
+        /// <returns>ID of the removed record</returns>
+        /// <exception cref="DataBaseUpdateException"></exception>
+        public async Task<string> DeleteEntityByIdAsync(NorthwindContext ctx, string id)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateEntity(Customer entity)
-        {
-            throw new NotImplementedException();
+            using (var transaction = ctx.Database.BeginTransaction())
+            {
+                try
+                {
+                    Customer customer = new Customer { CustomerId = id };
+                    ctx.Entry(customer).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                    await ctx.SaveChangesAsync();
+                    await transaction.CommitAsync();
+                    return id;
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    throw new DataBaseUpdateException($"Customer with ID={id} was not deleted.", ex);
+                }
+            }
         }
     }
 }

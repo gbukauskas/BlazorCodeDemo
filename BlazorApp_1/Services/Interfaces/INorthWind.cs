@@ -2,11 +2,15 @@
 
 namespace BlazorApp_1.Services.Interfaces
 {
-    public interface INorthWind<T> where T : class
+    public interface INorthWind<T, K> where T : class
+                                      where K : IComparable
     {
-        IQueryable<T> GetAllEntities(NorthwindContext ctx);
-        Task<T> GetEntityById(NorthwindContext ctx, int id);
         Task<T> CreateEntity(NorthwindContext ctx, T newEntity);
-        Task UpdateEntity(T entity);
+        Task<IEnumerable<T>> CreateEntities(NorthwindContext ctx, IEnumerable<T> collection);
+        Task<T> UpdateEntity(NorthwindContext ctx, T entity);
+
+        IQueryable<T> GetAllEntities(NorthwindContext ctx);
+        Task<T> GetEntityByIdAsync(NorthwindContext ctx, K id);
+        Task<K> DeleteEntityByIdAsync(NorthwindContext ctx, K id);
     }
 }
