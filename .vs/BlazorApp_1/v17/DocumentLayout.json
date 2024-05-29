@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\darbas\\BlazorCodeDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8FFD48B-62BF-497C-B63D-93E3E947AD3E}|TestProjectBlazorApp_1\\TestProjectBlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\testprojectblazorapp_1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8FFD48B-62BF-497C-B63D-93E3E947AD3E}|TestProjectBlazorApp_1\\TestProjectBlazorApp_1.csproj|solutionrelative:testprojectblazorapp_1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\services\\interfaces\\inorthwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\services\\interfaces\\inorthwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\pages\\counter_1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\pages\\counter_1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\customerrors\\databaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\customerrors\\databaseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\datacontext\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\datacontext\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "BlazorApp_1\\DataContext\\Models\\Customer.cs",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\Models\\Customer.cs",
-              "RelativeToolTip": "BlazorApp_1\\DataContext\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:10:26.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DatabaseException.cs",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\CustomErrors\\DatabaseException.cs",
-              "RelativeDocumentMoniker": "BlazorApp_1\\CustomErrors\\DatabaseException.cs",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\CustomErrors\\DatabaseException.cs",
-              "RelativeToolTip": "BlazorApp_1\\CustomErrors\\DatabaseException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:21:32.204Z"
+              "DocumentIndex": 0,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T11:14:50.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "INorthWind.cs",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Services\\Interfaces\\INorthWind.cs",
-              "RelativeDocumentMoniker": "BlazorApp_1\\Services\\Interfaces\\INorthWind.cs",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Services\\Interfaces\\INorthWind.cs",
-              "RelativeToolTip": "BlazorApp_1\\Services\\Interfaces\\INorthWind.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:50:41.156Z"
+              "Title": "Counter_1.razor",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Counter_1.razor",
+              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\Counter_1.razor",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\Counter_1.razor",
+              "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\Counter_1.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T06:48:37.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorApp_1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorApp_1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-09T06:19:50.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "BlazorApp_1\\Services\\CustomerService.cs",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Services\\CustomerService.cs",
-              "RelativeToolTip": "BlazorApp_1\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAwOEAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:45:46.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\TestProjectBlazorApp_1\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TestProjectBlazorApp_1\\UnitTest1.cs",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\TestProjectBlazorApp_1\\UnitTest1.cs",
-              "RelativeToolTip": "TestProjectBlazorApp_1\\UnitTest1.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAgwO8AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:37:53.014Z",
-              "EditorCaption": ""
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp_1\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T06:12:12.858Z"
             }
           ]
         }
