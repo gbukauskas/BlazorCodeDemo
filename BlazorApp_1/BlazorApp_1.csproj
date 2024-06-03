@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <None Remove="Components\Pages\Counter_1.razor~RF435976b2.TMP" />
+    <None Remove="Components\Pages\Customers.razor~RFa8a292f.TMP" />
     <None Remove="DataContext\RequestResponse\PageRequestResponse.cs~RF2d31002f.TMP" />
   </ItemGroup>
 

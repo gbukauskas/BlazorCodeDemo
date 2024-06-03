@@ -1,6 +1,7 @@
 using BlazorApp_1.Client.Pages;
 using BlazorApp_1.Components;
 using BlazorApp_1.DataContext.Models;
+using BlazorApp_1.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp_1
@@ -20,6 +21,7 @@ namespace BlazorApp_1
             builder.Services.AddDbContextFactory<NorthwindContext>(options =>
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+//            builder.Services.AddScoped<CustomerService>();
 
             var app = builder.Build();
 

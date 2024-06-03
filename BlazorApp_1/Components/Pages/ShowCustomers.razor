@@ -1,0 +1,96 @@
+﻿@page "/showcustomers/{pagenumber:int?}/{pagesize:int?}"
+@attribute [StreamRendering(true)]
+
+@using BlazorApp_1.DataContext.Models
+@using BlazorApp_1.DataContext.RequestResponse
+@using BlazorApp_1.Services
+@using BlazorApp_1.Services.Interfaces
+@using Microsoft.EntityFrameworkCore
+
+@inject IDbContextFactory<NorthwindContext> factory
+
+<PageTitle>All Customers</PageTitle>
+<h3>All Customers</h3>
+
+@if (currentPage == null || currentPage.Items == null)
+{
+    <p><em>Loading...</em></p> @* 👈 Placeholder while data is loaded *@
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="align-middle">Id</th>
+                <th class="align-middle">Company Name</th>
+                <th class="align-middle">Contact Name</th>
+                <th class="align-middle">Contact Title</th>
+                <th class="align-middle">Address</th>
+                <th class="align-middle">City</th>
+                <th class="align-middle">Region</th>
+                <th>Postal<br/>Code</th>
+                <th class="align-middle">Country</th>
+                <th class="align-middle">Phone</th>
+                <th class="align-middle">Fax</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in currentPage.Items)
+            {
+                <tr>
+                    <td>@customer.CustomerId</td>
+                    <td>@customer.CompanyName</td>
+                    <td>@customer.ContactName</td>
+                    <td>@customer.ContactTitle</td>
+                    <td>@customer.Address</td>
+                    <td>@customer.City</td>
+                    <td>@customer.Region</td>
+                    <td>@customer.PostalCode</td>
+                    <td>@customer.Country</td>
+                    <td>@customer.Phone</td>
+                    <td>@customer.Fax</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    /// <summary>
+    /// Current page
+    /// </summary>
+    [Parameter]
+    public int? PageNumber { get; set; } = null;
+
+    /// <summary>
+    /// Number of rows in the page
+    /// </summary>
+    [Parameter]
+    public int? PageSize { get; set; } = null;
+
+    private int pageNumber;
+    private int pageSize;
+    private PageResponse<Customer>? currentPage = null;
+
+    // protected override void OnParametersSet()
+    // {
+    //     base.OnParametersSet();
+    //     pageNumber = PageNumber ?? 1;
+    //     pageSize = PageSize ?? 25;
+    // }
+    protected override async Task OnParametersSetAsync()
+    {
+        await base.OnParametersSetAsync();
+        pageNumber = PageNumber ?? 1;
+        pageSize = PageSize ?? 15;
+        var CustomerSvc = new CustomerService();
+
+        using (var context = factory.CreateDbContext())
+        {
+            var tmp = CustomerSvc.GetAllEntities(context);
+            currentPage = await CustomerSvc.GetPageAsync(tmp, pageSize, pageNumber);
+        }
+        return;
+    }
+}

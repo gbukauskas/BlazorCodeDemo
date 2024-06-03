@@ -186,7 +186,8 @@ namespace BlazorApp_1.Services
             Debug.Assert(collection != null && pageSize > 0 && pageNumber >= 0);   // pageNumber == 0 returns last page
             try
             {
-                int recordsCount = await collection.CountAsync();
+//                int recordsCount = await collection.CountAsync(); // Works in UnitTest1.cs
+                int recordsCount = collection.Count();
                 if (recordsCount < 1)
                 {
                     return buildAnswer(recordsCount, 0, 0, []);
@@ -200,10 +201,14 @@ namespace BlazorApp_1.Services
                     int currentPage = (pageNumber < 1) ? totalPages
                                                        : pageNumber > totalPages ? 1 : pageNumber;
 
-                    var pageContent = await collection
-                                                .Skip<Customer>((currentPage - 1) * pageSize)
-                                                .Take<Customer>(pageSize)
-                                                .ToArrayAsync();
+                    //var pageContent = await collection    // Works in UnitTest1.cs
+                    //                            .Skip<Customer>((currentPage - 1) * pageSize)
+                    //                            .Take<Customer>(pageSize)
+                    //                            .ToArrayAsync();
+                    var pageContent = collection
+                                        .Skip<Customer>((currentPage - 1) * pageSize)
+                                        .Take<Customer>(pageSize)
+                                        .ToArray();
 
                     return buildAnswer(recordsCount, currentPage, totalPages, pageContent);
                 }
