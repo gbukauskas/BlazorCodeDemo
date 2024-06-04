@@ -201,3 +201,24 @@ main[b-x0cu0sfi0s] {
         overflow-y: auto;
     }
 }
+/* _content/BlazorApp_1/Components/Pages/ShowCustomers.razor.rz.scp.css */
+table tbody[b-tqmmgyrq2f], table thead[b-tqmmgyrq2f] {
+    display: block;
+}
+
+table tbody[b-tqmmgyrq2f] {
+    overflow: auto;
+    height: 700px;
+}
+
+.cust-id[b-tqmmgyrq2f] { width: 80px; }
+.cust-name[b-tqmmgyrq2f] { width: 170px; }
+.contact-name[b-tqmmgyrq2f] { width: 170px; }
+.contact-title[b-tqmmgyrq2f] { width: 160px; }
+.cust-address[b-tqmmgyrq2f] { width: 170px; }
+.cust-city[b-tqmmgyrq2f] { width: 115px; }
+.cust-region[b-tqmmgyrq2f] { width: 80px; }
+.cust-postal-code[b-tqmmgyrq2f] { width: 115px; }
+.cust-country[b-tqmmgyrq2f] { width: 100px; }
+.cust-phone[b-tqmmgyrq2f] { width: 100px; }
+.cust-fax[b-tqmmgyrq2f] { width: 100px; }

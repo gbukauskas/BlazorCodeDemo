@@ -1,0 +1,20 @@
+﻿table tbody, table thead {
+    display: block;
+}
+
+table tbody {
+    overflow: auto;
+    height: 700px;
+}
+
+.cust-id { width: 80px; }
+.cust-name { width: 170px; }
+.contact-name { width: 170px; }
+.contact-title { width: 160px; }
+.cust-address { width: 170px; }
+.cust-city { width: 115px; }
+.cust-region { width: 80px; }
+.cust-postal-code { width: 115px; }
+.cust-country { width: 100px; }
+.cust-phone { width: 100px; }
+.cust-fax { width: 100px; }

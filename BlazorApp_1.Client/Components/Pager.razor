@@ -1,0 +1,42 @@
+﻿<div class="pager">
+
+</div>
+
+@code {
+        // https://havit.blazor.eu/components/HxPager
+        // https://github.com/radzenhq/radzen-blazor/blob/master/Radzen.Blazor/RadzenPager.razor.cs
+
+        /// <summary>
+        /// Number of pages. Default value is 1.
+        /// </summary>
+        [Parameter]
+        public int PageCount { get; set; } = 1;
+
+        /// <summary>
+        /// Current page. Default value is 1
+        /// </summary>
+        [Parameter]
+        public int PageNumber { get; set; } = 1;
+
+        /// <summary>
+        /// Number of rows in the page. Default value is 15
+        /// </summary>
+        [Parameter]
+        public int PageSize { get; set; } = 15;
+
+        /// <summary>
+        /// Base address. Mandatory parameter. Leading and trailng slashes are optional.
+        /// <code>showcustomers</code>, <code>/showcustomers</code>, <code>showcustomers/</code>, <code>/showcustomers/</code> are identical addresses
+        /// </summary>
+        [Parameter]
+        public string BaseUrl { get; set; } = "";
+
+    protected override async Task OnParametersSetAsync()
+    {
+        await base.OnParametersSetAsync();
+        if (String.IsNullOrEmpty(BaseUrl)) {
+            throw new ArgumentException("Base URL is empty");
+        }
+        return;
+    }
+}

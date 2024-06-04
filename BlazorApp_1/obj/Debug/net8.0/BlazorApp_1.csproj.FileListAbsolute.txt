@@ -161,6 +161,7 @@ D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\staticwebassets\msbuild.bu
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\staticwebassets.pack.json
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\Components\Pages\ShowCustomers.razor.rz.scp.css
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\bundle\BlazorApp_1.styles.css
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp_1.bundle.scp.css
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\BlazorAp.0F365E12.Up2Date

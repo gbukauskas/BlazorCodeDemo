@@ -21,34 +21,34 @@ else
     <table class="table table-striped">
         <thead>
             <tr>
-                <th class="align-middle">Id</th>
-                <th class="align-middle">Company Name</th>
-                <th class="align-middle">Contact Name</th>
-                <th class="align-middle">Contact Title</th>
-                <th class="align-middle">Address</th>
-                <th class="align-middle">City</th>
-                <th class="align-middle">Region</th>
-                <th>Postal<br/>Code</th>
-                <th class="align-middle">Country</th>
-                <th class="align-middle">Phone</th>
-                <th class="align-middle">Fax</th>
+                <th class="align-middle cust-id">Id</th>
+                <th class="align-middle cust-name">Company Name</th>
+                <th class="align-middle contact-name">Contact Name</th>
+                <th class="align-middle contact-title">Contact Title</th>
+                <th class="align-middle cust-address">Address</th>
+                <th class="align-middle cust-city">City</th>
+                <th class="align-middle cust-region">Region</th>
+                <th class="cust-postal-code">Postal<br />Code</th>
+                <th class="align-middle cust-country">Country</th>
+                <th class="align-middle cust-phone">Phone</th>
+                <th class="align-middle cust-fax">Fax</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var customer in currentPage.Items)
             {
                 <tr>
-                    <td>@customer.CustomerId</td>
-                    <td>@customer.CompanyName</td>
-                    <td>@customer.ContactName</td>
-                    <td>@customer.ContactTitle</td>
-                    <td>@customer.Address</td>
-                    <td>@customer.City</td>
-                    <td>@customer.Region</td>
-                    <td>@customer.PostalCode</td>
-                    <td>@customer.Country</td>
-                    <td>@customer.Phone</td>
-                    <td>@customer.Fax</td>
+                    <td class="cust-id">@customer.CustomerId</td>
+                    <td class="cust-name">@customer.CompanyName</td>
+                    <td class="contact-name">@customer.ContactName</td>
+                    <td class="contact-title">@customer.ContactTitle</td>
+                    <td class="cust-address">@customer.Address</td>
+                    <td class="cust-city">@customer.City</td>
+                    <td class="cust-region">@customer.Region</td>
+                    <td class="cust-postal-code">@customer.PostalCode</td>
+                    <td class="cust-country">@customer.Country</td>
+                    <td class="cust-phone">@customer.Phone</td>
+                    <td class="cust-fax">@customer.Fax</td>
                 </tr>
             }
         </tbody>
@@ -73,12 +73,6 @@ else
     private int pageSize;
     private PageResponse<Customer>? currentPage = null;
 
-    // protected override void OnParametersSet()
-    // {
-    //     base.OnParametersSet();
-    //     pageNumber = PageNumber ?? 1;
-    //     pageSize = PageSize ?? 25;
-    // }
     protected override async Task OnParametersSetAsync()
     {
         await base.OnParametersSetAsync();
@@ -89,7 +83,7 @@ else
         using (var context = factory.CreateDbContext())
         {
             var tmp = CustomerSvc.GetAllEntities(context);
-            currentPage = await CustomerSvc.GetPageAsync(tmp, pageSize, pageNumber);
+            currentPage = await CustomerSvc.GetPageAsync(tmp, pageSize, -1);    // Show all records
         }
         return;
     }

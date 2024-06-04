@@ -165,7 +165,7 @@ namespace BlazorApp_1.Services
         /// </summary>
         /// <param name="collection">Passing IQuerable instead of <code>NorthwindContext</code>simplifies sorting and filtering</param>
         /// <param name="pageSize">Page size</param>
-        /// <param name="pageNumber">Number of the page. Numbering starts from 1.</param>
+        /// <param name="pageNumber">Number of the page. The function returns one page with all records if pageNumber == -1. Page numbering starts from 1.</param>
         /// <returns><see cref="PageResponse"/></returns>
         /// <exception cref="DatabaseException"></exception>
         public async Task<PageResponse<Customer>> GetPageAsync(IQueryable<Customer> collection, int pageSize, int pageNumber)
@@ -183,7 +183,7 @@ namespace BlazorApp_1.Services
                 };
             };
 
-            Debug.Assert(collection != null && pageSize > 0 && pageNumber >= 0);   // pageNumber == 0 returns last page
+            Debug.Assert(collection != null && (pageNumber == -1 || pageSize > 0 && pageNumber >= 0));   // pageNumber == 0 returns last page
             try
             {
 //                int recordsCount = await collection.CountAsync(); // Works in UnitTest1.cs
@@ -192,6 +192,10 @@ namespace BlazorApp_1.Services
                 {
                     return buildAnswer(recordsCount, 0, 0, []);
                 }
+                else if (pageNumber == -1) 
+                {
+                    return buildAnswer(recordsCount, 1, 1, collection.ToArray());
+                } 
                 else
                 {
                     double pgCount = (double)recordsCount / (double)pageSize;
