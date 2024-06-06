@@ -19,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\services\\interfaces\\ipagedcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A262F441-41D4-4E70-ACBC-0D41C03BD886}|BlazorApp_1.Client\\BlazorApp_1.Client.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1.client\\components\\pager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A262F441-41D4-4E70-ACBC-0D41C03BD886}|BlazorApp_1.Client\\BlazorApp_1.Client.csproj|solutionrelative:blazorapp_1.client\\components\\pager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\datacontext\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\datacontext\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,9 +48,10 @@
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
               "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
               "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-03T13:45:33.423Z"
+              "WhenOpened": "2024-06-03T13:45:33.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -68,7 +61,7 @@
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
               "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
               "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-03T07:34:47.18Z",
               "EditorCaption": ""
@@ -76,18 +69,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Pager.razor",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\Components\\Pager.razor",
-              "RelativeDocumentMoniker": "BlazorApp_1.Client\\Components\\Pager.razor",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1.Client\\Components\\Pager.razor",
-              "RelativeToolTip": "BlazorApp_1.Client\\Components\\Pager.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T07:18:37.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Customer.cs",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "BlazorApp_1\\DataContext\\Models\\Customer.cs",
@@ -96,18 +77,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T08:18:16.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\App.razor",
-              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\App.razor",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\App.razor",
-              "RelativeToolTip": "BlazorApp_1\\Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T08:01:18.692Z"
             },
             {
               "$type": "Document",
@@ -129,13 +98,13 @@
               "RelativeDocumentMoniker": "BlazorApp_1\\Services\\CustomerService.cs",
               "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Services\\CustomerService.cs",
               "RelativeToolTip": "BlazorApp_1\\Services\\CustomerService.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAIwMQAAAA7AAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAUwIYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T14:47:56.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp_1\\Program.cs",
@@ -147,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "NorthwindContext.cs",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\NorthwindContext.cs",
               "RelativeDocumentMoniker": "BlazorApp_1\\DataContext\\NorthwindContext.cs",

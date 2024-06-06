@@ -37,7 +37,7 @@ else
         <tbody>
             @foreach (var customer in currentPage.Items)
             {
-                <tr>
+                <tr @key="@customer" custId="@customer.CustomerId">
                     <td class="cust-id">@customer.CustomerId</td>
                     <td class="cust-name">@customer.CompanyName</td>
                     <td class="contact-name">@customer.ContactName</td>
