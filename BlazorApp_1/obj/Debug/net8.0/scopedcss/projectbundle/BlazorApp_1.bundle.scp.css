@@ -1,3 +1,33 @@
+/* _content/BlazorApp_1/Components/CustomPager.razor.rz.scp.css */
+div.pager[b-yvdznec67y] {
+    float:left;
+    margin-left: 2em;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+a.custom-link[b-yvdznec67y] {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+}
+
+a.selected-label[b-yvdznec67y] {
+    text-decoration: none;
+    font-weight: bolder;
+    color: red;
+}
+
+a.selected-label:hover[b-yvdznec67y] {
+    cursor: unset;
+}
+
+a.custom-link[disabled][b-yvdznec67y] {
+    text-decoration: none;
+    cursor: unset;
+    opacity: 0.5;
+}
 /* _content/BlazorApp_1/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-x0cu0sfi0s] {
     position: relative;
@@ -202,6 +232,10 @@ main[b-x0cu0sfi0s] {
     }
 }
 /* _content/BlazorApp_1/Components/Pages/ShowCustomers.razor.rz.scp.css */
+table[b-tqmmgyrq2f] {
+    margin-bottom: 0;
+}
+
 table tbody[b-tqmmgyrq2f], table thead[b-tqmmgyrq2f] {
     display: block;
 }

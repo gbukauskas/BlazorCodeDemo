@@ -19,8 +19,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Pages\Pager.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Components\CustomPager.razor.css~RF2d3c5ca1.TMP" />
     <None Remove="Components\Pages\Counter_1.razor~RF435976b2.TMP" />
     <None Remove="Components\Pages\Customers.razor~RFa8a292f.TMP" />
+    <None Remove="DataContext\Models\PagerData.cs~RF2cfa7aaa.TMP" />
     <None Remove="DataContext\RequestResponse\PageRequestResponse.cs~RF2d31002f.TMP" />
   </ItemGroup>
 
@@ -37,7 +43,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataContext\Models\" />
+    <UpToDateCheckInput Remove="Components\Pages\Pager.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\CustomPager.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Pager.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Pages\Pager.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\CustomPager.razor" />
   </ItemGroup>
 
 </Project>

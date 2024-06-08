@@ -53,6 +53,7 @@ else
             }
         </tbody>
     </table>
+    <CustomPager MaxButtons=5 PageCount=@currentPage.TotalPages PageNumber=@currentPage.PageNumber PageSize="@currentPage.PageSize" BaseUrl="showcustomers"/>
 }
 
 
@@ -77,13 +78,13 @@ else
     {
         await base.OnParametersSetAsync();
         pageNumber = PageNumber ?? 1;
-        pageSize = PageSize ?? 15;
+        pageSize = PageSize ?? 10;
         var CustomerSvc = new CustomerService();
 
         using (var context = factory.CreateDbContext())
         {
             var tmp = CustomerSvc.GetAllEntities(context);
-            currentPage = await CustomerSvc.GetPageAsync(tmp, pageSize, -1);    // Show all records
+            currentPage = await CustomerSvc.GetPageAsync(tmp, pageSize, pageNumber);
         }
         return;
     }

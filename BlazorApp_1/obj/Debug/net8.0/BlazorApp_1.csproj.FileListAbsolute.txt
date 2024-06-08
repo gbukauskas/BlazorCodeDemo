@@ -170,3 +170,4 @@ D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\refint\BlazorApp_1.dll
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\BlazorApp_1.pdb
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\BlazorApp_1.genruntimeconfig.cache
 D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\ref\BlazorApp_1.dll
+D:\darbas\BlazorCodeDemo\BlazorApp_1\obj\Debug\net8.0\scopedcss\Components\CustomPager.razor.rz.scp.css

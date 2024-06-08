@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/darbas/BlazorCodeDemo/BlazorApp_1/Components/CustomPager.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXN0b21QYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-yvdznec67y
+
 [D:/darbas/BlazorCodeDemo/BlazorApp_1/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-x0cu0sfi0s

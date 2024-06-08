@@ -1,42 +1,105 @@
-﻿<div class="pager">
+﻿@using BlazorApp_1.Client.Models
+
+<div class="pager">
 
 </div>
 
 @code {
-        // https://havit.blazor.eu/components/HxPager
-        // https://github.com/radzenhq/radzen-blazor/blob/master/Radzen.Blazor/RadzenPager.razor.cs
+    // https://havit.blazor.eu/components/HxPager
+    // https://github.com/radzenhq/radzen-blazor/blob/master/Radzen.Blazor/RadzenPager.razor.cs
 
-        /// <summary>
-        /// Number of pages. Default value is 1.
-        /// </summary>
-        [Parameter]
-        public int PageCount { get; set; } = 1;
+    /// <summary>
+    /// Number of pages. Default value is 1.
+    /// </summary>
+    [Parameter]
+    public int MaxButtons { get; set; } = 10;
 
-        /// <summary>
-        /// Current page. Default value is 1
-        /// </summary>
-        [Parameter]
-        public int PageNumber { get; set; } = 1;
+    /// <summary>
+    /// Number of pages. Default value is 1.
+    /// </summary>
+    [Parameter]
+    public int PageCount { get; set; } = 1;
 
-        /// <summary>
-        /// Number of rows in the page. Default value is 15
-        /// </summary>
-        [Parameter]
-        public int PageSize { get; set; } = 15;
+    /// <summary>
+    /// Current page. Default value is 1
+    /// </summary>
+    [Parameter]
+    public int PageNumber { get; set; } = 1;
 
-        /// <summary>
-        /// Base address. Mandatory parameter. Leading and trailng slashes are optional.
-        /// <code>showcustomers</code>, <code>/showcustomers</code>, <code>showcustomers/</code>, <code>/showcustomers/</code> are identical addresses
-        /// </summary>
-        [Parameter]
-        public string BaseUrl { get; set; } = "";
+    /// <summary>
+    /// Number of rows in the page. Default value is 15
+    /// </summary>
+    [Parameter]
+    public int PageSize { get; set; } = 15;
 
-    protected override async Task OnParametersSetAsync()
+    /// <summary>
+    /// Base address. Mandatory parameter. Leading and trailng slashes are optional.
+    /// <code>showcustomers</code>, <code>/showcustomers</code>, <code>showcustomers/</code>, <code>/showcustomers/</code> are identical addresses
+    /// </summary>
+    [Parameter]
+    public string BaseUrl { get; set; } = "";
+
+
+    private List<PagerData> PrintableButtons = new List<PagerData>();
+
+    protected override void OnParametersSet()
     {
-        await base.OnParametersSetAsync();
-        if (String.IsNullOrEmpty(BaseUrl)) {
+        base.OnParametersSet();
+        if (String.IsNullOrEmpty(BaseUrl))
+        {
             throw new ArgumentException("Base URL is empty");
         }
-        return;
+        PrepareButtonList();
+        InsertPrevButtons();
+        AppendTrailButtons();
+    }
+
+    /// <summary>
+    /// The function collects <code>PagerData</code> structures in the <code>PrintableButtons</code> list.
+    /// The collection must be no longer than the value stated in the parameter <code>Maxbuttes</code>.
+    /// The function shifts to left <code>PrintableButtons</code> if current page (item with <code>Pagenumber</code>) is not visible.
+    /// </summary>
+    private void PrepareButtonList()
+    {
+        bool currentPageIsVisible = false;
+        for (int i = 1; i <= PageCount; i++)
+        {
+            var item = new PagerData(i, i == PageNumber, i == PageNumber);
+            if (item.IsSelected)
+            {
+                currentPageIsVisible = true;
+            }
+            if (PrintableButtons.Count < MaxButtons)
+            {
+                PrintableButtons.Add(item);
+                continue;
+            }
+
+            if (!currentPageIsVisible)
+            {
+                var shiftedItems = PrintableButtons.Skip(1).Take(PrintableButtons.Count - 1);
+                PrintableButtons = shiftedItems.ToList();
+                continue;
+            }
+        }
+    }
+
+    private void InsertPrevButtons()
+    {
+        var item = new PagerData(PageNumber - 1, false, PageNumber < 2);
+        item.PageIndex = "l";
+        PrintableButtons.Insert(0, item);
+        item = new PagerData(1, false, PageNumber < 2);
+        item.PageIndex = "L";
+        PrintableButtons.Insert(0, item);
+    }
+    private void AppendTrailButtons()
+    {
+        var item = new PagerData(PageNumber + 1, false, PageNumber < PageCount);
+        item.PageIndex = "r";
+        PrintableButtons.Add(item);
+        item = new PagerData(R, false, PageNumber < PageCount);
+        item.PageIndex = "R";
+        PrintableButtons.Add(item);
     }
 }

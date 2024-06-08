@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\PagerData.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Components\Pager.razor" />
   </ItemGroup>
 
@@ -25,7 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Components\Pager.razor" />
+    <Folder Include="Components\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
