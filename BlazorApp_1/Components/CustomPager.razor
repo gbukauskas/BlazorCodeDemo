@@ -10,6 +10,8 @@
             @GenerateLabel(link)
         </a>
     }
+    <span class="set-info">@TotalRecords records;</span>
+    <span class="set-info">@PageCount pages.</span>
 </div>
 
 @code {
@@ -47,6 +49,11 @@
     [Parameter]
     public string BaseUrl { get; set; } = "";
 
+    /// <summary>
+    /// Total numer of records
+    /// </summary>
+    [Parameter]
+    public string TotalRecords { get; set; } = "";
 
     private List<PagerData> PrintableButtons = new List<PagerData>();
 

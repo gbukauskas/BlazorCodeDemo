@@ -14,7 +14,7 @@
 
 @if (currentPage == null || currentPage.Items == null)
 {
-    <p><em>Loading...</em></p> @* 👈 Placeholder while data is loaded *@
+    <p><em>Loading...</em></p> 
 }
 else
 {
@@ -53,7 +53,8 @@ else
             }
         </tbody>
     </table>
-    <CustomPager MaxButtons=5 PageCount=@currentPage.TotalPages PageNumber=@currentPage.PageNumber PageSize="@currentPage.PageSize" BaseUrl="showcustomers"/>
+    <CustomPager MaxButtons=5 PageCount=@currentPage.TotalPages TotalRecords=@currentPage.TotalRecords.ToString() PageNumber=@currentPage.PageNumber
+                 PageSize="@currentPage.PageSize" BaseUrl="showcustomers"/>
 }
 
 
