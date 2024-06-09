@@ -27,3 +27,8 @@ a.custom-link[disabled] {
     cursor: unset;
     opacity: 0.5;
 }
+
+span.set-info {
+    display: inline-block;
+    opacity: 0.6;
+}

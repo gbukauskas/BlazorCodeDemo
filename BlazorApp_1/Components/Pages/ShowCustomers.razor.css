@@ -1,5 +1,7 @@
 ﻿table {
     margin-bottom: 0;
+    table-layout: fixed;
+    width: 1560px;
 }
 
 table tbody, table thead {
@@ -11,14 +13,14 @@ table tbody {
     height: 700px;
 }
 
-.cust-id { width: 80px; }
-.cust-name { width: 170px; }
-.contact-name { width: 170px; }
-.contact-title { width: 160px; }
-.cust-address { width: 170px; }
-.cust-city { width: 115px; }
-.cust-region { width: 80px; }
-.cust-postal-code { width: 115px; }
-.cust-country { width: 100px; }
-.cust-phone { width: 100px; }
-.cust-fax { width: 100px; }
+.cust-id { width: 5.63%; }
+.cust-name { width: 11.97%; }
+.contact-name { width: 11.97%; }
+.contact-title { width: 11.27%; }
+.cust-address { width: 11.97%; }
+.cust-city { width: 8.10%; }
+.cust-region { width: 5.63%; }
+.cust-postal-code { width: 8.10%; }
+.cust-country { width: 7.04%; }
+.cust-phone { width: 9.15%; }
+.cust-fax { width: 9.15%; }

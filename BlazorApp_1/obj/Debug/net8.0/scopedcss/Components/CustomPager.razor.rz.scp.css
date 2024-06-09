@@ -27,3 +27,8 @@ a.custom-link[disabled][b-yvdznec67y] {
     cursor: unset;
     opacity: 0.5;
 }
+
+span.set-info[b-yvdznec67y] {
+    display: inline-block;
+    opacity: 0.6;
+}

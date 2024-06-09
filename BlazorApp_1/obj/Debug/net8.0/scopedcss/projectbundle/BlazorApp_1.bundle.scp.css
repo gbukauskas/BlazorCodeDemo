@@ -28,6 +28,11 @@ a.custom-link[disabled][b-yvdznec67y] {
     cursor: unset;
     opacity: 0.5;
 }
+
+span.set-info[b-yvdznec67y] {
+    display: inline-block;
+    opacity: 0.6;
+}
 /* _content/BlazorApp_1/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-x0cu0sfi0s] {
     position: relative;
@@ -234,6 +239,8 @@ main[b-x0cu0sfi0s] {
 /* _content/BlazorApp_1/Components/Pages/ShowCustomers.razor.rz.scp.css */
 table[b-tqmmgyrq2f] {
     margin-bottom: 0;
+    table-layout: fixed;
+    width: 1560px;
 }
 
 table tbody[b-tqmmgyrq2f], table thead[b-tqmmgyrq2f] {
@@ -245,14 +252,14 @@ table tbody[b-tqmmgyrq2f] {
     height: 700px;
 }
 
-.cust-id[b-tqmmgyrq2f] { width: 80px; }
-.cust-name[b-tqmmgyrq2f] { width: 170px; }
-.contact-name[b-tqmmgyrq2f] { width: 170px; }
-.contact-title[b-tqmmgyrq2f] { width: 160px; }
-.cust-address[b-tqmmgyrq2f] { width: 170px; }
-.cust-city[b-tqmmgyrq2f] { width: 115px; }
-.cust-region[b-tqmmgyrq2f] { width: 80px; }
-.cust-postal-code[b-tqmmgyrq2f] { width: 115px; }
-.cust-country[b-tqmmgyrq2f] { width: 100px; }
-.cust-phone[b-tqmmgyrq2f] { width: 100px; }
-.cust-fax[b-tqmmgyrq2f] { width: 100px; }
+.cust-id[b-tqmmgyrq2f] { width: 5.63%; }
+.cust-name[b-tqmmgyrq2f] { width: 11.97%; }
+.contact-name[b-tqmmgyrq2f] { width: 11.97%; }
+.contact-title[b-tqmmgyrq2f] { width: 11.27%; }
+.cust-address[b-tqmmgyrq2f] { width: 11.97%; }
+.cust-city[b-tqmmgyrq2f] { width: 8.10%; }
+.cust-region[b-tqmmgyrq2f] { width: 5.63%; }
+.cust-postal-code[b-tqmmgyrq2f] { width: 8.10%; }
+.cust-country[b-tqmmgyrq2f] { width: 7.04%; }
+.cust-phone[b-tqmmgyrq2f] { width: 9.15%; }
+.cust-fax[b-tqmmgyrq2f] { width: 9.15%; }
