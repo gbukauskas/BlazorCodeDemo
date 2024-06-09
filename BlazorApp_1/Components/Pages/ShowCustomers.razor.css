@@ -4,13 +4,10 @@
     width: 1560px;
 }
 
-table tbody, table thead {
-    display: block;
-}
-
 table tbody {
     overflow: auto;
     height: 700px;
+    width: 100%;
 }
 
 .cust-id { width: 5.63%; }

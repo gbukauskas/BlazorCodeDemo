@@ -243,13 +243,10 @@ table[b-tqmmgyrq2f] {
     width: 1560px;
 }
 
-table tbody[b-tqmmgyrq2f], table thead[b-tqmmgyrq2f] {
-    display: block;
-}
-
 table tbody[b-tqmmgyrq2f] {
     overflow: auto;
     height: 700px;
+    width: 100%;
 }
 
 .cust-id[b-tqmmgyrq2f] { width: 5.63%; }

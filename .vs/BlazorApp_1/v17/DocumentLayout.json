@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
               "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
               "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-09T07:07:36.366Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "BlazorApp_1\\Components\\CustomPager.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-08T07:43:12.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T07:43:12.687Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "BlazorApp_1\\Components\\CustomPager.razor",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T06:04:17.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T06:04:17.969Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "BlazorApp_1\\DataContext\\RequestResponse\\PageResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T06:15:14.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T06:15:14.218Z"
             },
             {
               "$type": "Document",
@@ -108,7 +105,7 @@
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
               "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
               "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD4AAAAUAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-08T06:11:10.863Z",
               "EditorCaption": ""
