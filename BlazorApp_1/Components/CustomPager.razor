@@ -1,4 +1,6 @@
 ﻿@namespace BlazorApp_1
+@rendermode InteractiveServer
+@inject NavigationManager NavManager
 
 @using BlazorApp_1.DataContext.Models
 @using System.Text
@@ -10,13 +12,32 @@
             @GenerateLabel(link)
         </a>
     }
-    <span class="set-info">@TotalRecords records;</span>
-    <span class="set-info">@PageCount pages.</span>
+    <span class="set-info">@TotalRecords rec. in @PageCount pages.</span>
+    <form class="form-inline" method="post" @onsubmit="Submit" @formname="Starship1">
+        <AntiforgeryToken />
+        <span>Go to page</span>
+        <InputText @bind-Value="Model!.Id" style="width: 6em;"/>
+
+        <input type="hidden" name="MaxButtons" value="@Model!.MaxButtons" />
+        <input type="hidden" name="PageCount" value="@Model!.PageCount" />
+        <input type="hidden" name="PageNumber" value="@Model!.PageNumber" />
+        <input type="hidden" name="PageSize" value="@Model!.PageSize" />
+        <input type="hidden" name="BaseUrl" value="@Model!.BaseUrl" />
+
+        <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+        @if (!String.IsNullOrEmpty(ErrorMessage))
+        {
+            <span class="text-danger">@DecodeMsg(ErrorMessage)</span>
+        }
+    </form>
 </div>
 
 @code {
     // https://havit.blazor.eu/components/HxPager
     // https://github.com/radzenhq/radzen-blazor/blob/master/Radzen.Blazor/RadzenPager.razor.cs
+
+    [SupplyParameterFromForm]
+    public PagerPostData? Model { get; set; }
 
     /// <summary>
     /// Number of pages. Default value is 1.
@@ -50,6 +71,12 @@
     public string BaseUrl { get; set; } = "";
 
     /// <summary>
+    /// URL encoded error message
+    /// </summary>
+    [Parameter]
+    public string ErrorMessage { get; set; } = "";
+
+    /// <summary>
     /// Total numer of records
     /// </summary>
     [Parameter]
@@ -64,6 +91,15 @@
         {
             throw new ArgumentException("Base URL is empty");
         }
+
+        Model ??= new();
+        Model.Id = PageNumber.ToString();
+        Model.MaxButtons = this.MaxButtons;
+        Model.PageCount = this.PageCount;
+        Model.PageNumber = this.PageNumber;
+        Model.PageSize = this.PageSize;
+        Model.BaseUrl = this.BaseUrl;
+
         PrepareButtonList();
         InsertPrevButtons();
         AppendTrailButtons();
@@ -217,5 +253,57 @@
         {
             return "common-label";
         }
+    }
+
+    private void Submit()
+    {
+        try
+        {
+            if (String.IsNullOrEmpty(Model?.Id))
+            {
+                throw new Exception("Invalid POST request");
+            }
+            var i = Int32.Parse(Model.Id);
+            if (i < 1 || i > Model.PageCount)
+            {
+                throw new Exception("Invalid page number");
+            }
+            RepaintPage(i, String.Empty);
+        }
+        catch (Exception ex)
+        {
+
+            RepaintPage(Model!.PageNumber, System.Net.WebUtility.UrlEncode(ex.Message));
+        }
+    }
+
+    private void RepaintPage(int pgNumber, string errorMessage)
+    {
+        string URL;
+
+        if (String.IsNullOrEmpty(errorMessage))
+        {
+            URL = $"/{Model!.BaseUrl}/{pgNumber}/{Model!.PageSize}";
+        } 
+        else
+        {
+            URL = $"/{Model!.BaseUrl}/{pgNumber}/{Model!.PageSize}/{errorMessage}";
+        }
+        NavManager.NavigateTo(URL);
+    }
+
+    private string DecodeMsg(string message)
+    {
+        return String.IsNullOrEmpty(message) ? "" : System.Net.WebUtility.UrlDecode(message);
+    }
+
+    public class PagerPostData
+    {
+        public string? Id { get; set; }
+        public int MaxButtons { get; set; }
+        public int PageCount { get; set; }
+        public int PageNumber { get; set; }
+        public int PageSize { get; set; }
+        public string? BaseUrl { get; set; }
     }
 }

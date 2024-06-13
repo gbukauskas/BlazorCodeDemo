@@ -1,4 +1,4 @@
-﻿@page "/showcustomers/{pagenumber:int?}/{pagesize:int?}"
+﻿@page "/showcustomers/{pagenumber:int?}/{pagesize:int?}/{errormessage?}"
 @attribute [StreamRendering(true)]
 
 @using BlazorApp_1.DataContext.Models
@@ -54,7 +54,7 @@ else
         </tbody>
     </table>
     <CustomPager MaxButtons=5 PageCount=@currentPage.TotalPages TotalRecords=@currentPage.TotalRecords.ToString() PageNumber=@currentPage.PageNumber
-                 PageSize="@currentPage.PageSize" BaseUrl="showcustomers"/>
+                 PageSize="@currentPage.PageSize" BaseUrl="showcustomers" ErrorMessage="@ErrorMessage"/>
 }
 
 
@@ -71,6 +71,12 @@ else
     [Parameter]
     public int? PageSize { get; set; } = null;
 
+    /// <summary>
+    /// Error message
+    /// </summary>
+    [Parameter]
+    public string ErrorMessage { get; set; } = "";
+
     private int pageNumber;
     private int pageSize;
     private PageResponse<Customer>? currentPage = null;
@@ -79,7 +85,7 @@ else
     {
         await base.OnParametersSetAsync();
         pageNumber = PageNumber ?? 1;
-        pageSize = PageSize ?? 10;
+        pageSize = PageSize ?? 9;
         var CustomerSvc = new CustomerService();
 
         using (var context = factory.CreateDbContext())
