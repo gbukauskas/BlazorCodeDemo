@@ -13,11 +13,10 @@
         </a>
     }
     <span class="set-info">@TotalRecords rec. in @PageCount pages.</span>
-
-
-    <EditForm Model="Model" OnSubmit="Submit" FormName="PagerNavigate" class="form-inline">
+    <form class="form-inline" method="post" @onsubmit="Submit" @formname="Starship1">
+        <AntiforgeryToken />
         <span>Go to page</span>
-        <InputText @bind-Value="Model!.Id" style="width: 6em;" />
+        <InputText @bind-Value="Model!.Id" style="width: 6em;"/>
 
         <input type="hidden" name="MaxButtons" value="@Model!.MaxButtons" />
         <input type="hidden" name="PageCount" value="@Model!.PageCount" />
@@ -30,16 +29,12 @@
         {
             <span class="text-danger">@DecodeMsg(ErrorMessage)</span>
         }
-
-    </EditForm>
+    </form>
 </div>
 
 @code {
     // https://havit.blazor.eu/components/HxPager
     // https://github.com/radzenhq/radzen-blazor/blob/master/Radzen.Blazor/RadzenPager.razor.cs
-
-    // https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/input-components?view=aspnetcore-8.0
-    // https://amarozka.dev/blazor-editform-validation/
 
     [SupplyParameterFromForm]
     public PagerPostData? Model { get; set; }

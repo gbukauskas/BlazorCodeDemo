@@ -53,6 +53,7 @@ else
             }
         </tbody>
     </table>
+
     <CustomPager MaxButtons=5 PageCount=@currentPage.TotalPages TotalRecords=@currentPage.TotalRecords.ToString() PageNumber=@currentPage.PageNumber
                  PageSize="@currentPage.PageSize" BaseUrl="showcustomers" ErrorMessage="@ErrorMessage"/>
 }
