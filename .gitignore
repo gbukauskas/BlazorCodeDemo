@@ -1,0 +1,9 @@
+bin 	# ignore bin directory 
+OBJ 	# ignore any files with .obj postfix 
+.vs
+BlazorApp_1/bin
+BlazorApp_1/obj
+BlazorApp_1.Client/bin
+BlazorApp_1.Client/obj
+!.gitignore 
+*.log
