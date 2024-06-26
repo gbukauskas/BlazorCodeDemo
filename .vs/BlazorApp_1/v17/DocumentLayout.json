@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\darbas\\BlazorCodeDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\pages\\showcustomers.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\pages\\showcustomers.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\custompager.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\custompager.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\pages\\showcustomers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\pages\\showcustomers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\custompager.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|solutionrelative:blazorapp_1\\components\\custompager.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71C723EB-B002-4538-9182-E6DBF6297E2A}|BlazorApp_1\\BlazorApp_1.csproj|d:\\darbas\\blazorcodedemo\\blazorapp_1\\components\\custompager.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,19 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowCustomers.razor.css",
-              "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "RelativeDocumentMoniker": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "ToolTip": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-09T07:07:36.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CustomPager.razor.css",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\CustomPager.razor.css",
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\CustomPager.razor.css",
@@ -59,11 +42,12 @@
               "RelativeToolTip": "BlazorApp_1\\Components\\CustomPager.razor.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-08T07:43:12.687Z"
+              "WhenOpened": "2024-06-08T07:43:12.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CustomPager.razor",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\Components\\CustomPager.razor",
               "RelativeDocumentMoniker": "BlazorApp_1\\Components\\CustomPager.razor",
@@ -75,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PagerData.cs",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\Models\\PagerData.cs",
               "RelativeDocumentMoniker": "BlazorApp_1\\DataContext\\Models\\PagerData.cs",
@@ -87,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PageResponse.cs",
               "DocumentMoniker": "D:\\darbas\\BlazorCodeDemo\\BlazorApp_1\\DataContext\\RequestResponse\\PageResponse.cs",
               "RelativeDocumentMoniker": "BlazorApp_1\\DataContext\\RequestResponse\\PageResponse.cs",
@@ -107,8 +91,7 @@
               "RelativeToolTip": "BlazorApp_1\\Components\\Pages\\ShowCustomers.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T06:11:10.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T06:11:10.863Z"
             }
           ]
         }
